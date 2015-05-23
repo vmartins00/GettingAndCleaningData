@@ -3,26 +3,17 @@
 #Overview 
 ##The data was sourced from the UCI machine learning repository.
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
 ##For this analysis, data was provided by the instructors of Getting and Cleaning Data (Coursera).
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 #Variables Synopsis
-##As explained in the features_info.txt file from the source, smartphone sensor data was captured for subjects
-##performing 6 different physical activities. The features come from the accelerometer and gyroscope
-##There are 3-axial raw signals with a time dimension.
-##I refer you to the above mentioned documentation for further details. 
-##For this analysis, we created a subset of features with measures of mean and standard deviation only. 
+##As explained in the features_info.txt file from the source, smartphone sensor data was captured for subjects performing 6 different physical activities. The features come from the accelerometer and gyroscope There are 3-axial raw signals with a time dimension. I refer you to the above mentioned documentation for further details. 
+##For this analysis, we created a subset of features with measures of mean and standard deviation only. '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-##'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-##"subject" 
-Participant number in the study
-##"activity"
-One of 6 physical movements measured.The same as described in activity_labels.txt
-
-##The complete list of of other variables summarized in the final tidy data set, 
-##per participant, per activity. These are as described in features_info.txt
+#Data Dictionary
+##The complete list of of other variables summarized in the final tidy data set, per participant, per activity. These are as described in features_info.txt
+"subject"
+"activity"
 "timeBodyAccelerometer-mean()-X"
 "timeBodyAccelerometer-mean()-Y"
 "timeBodyAccelerometer-mean()-Z"
