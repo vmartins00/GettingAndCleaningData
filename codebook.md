@@ -12,11 +12,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 #Data Dictionary
 ##The complete list of of other variables summarized in the final tidy data set, per participant, per activity. These are as described in features_info.txt
-*"subject"
-*"activity"
-*"timeBodyAccelerometer-mean()-X"
-*"timeBodyAccelerometer-mean()-Y"
-*"timeBodyAccelerometer-mean()-Z"
+* "subject"
+* "activity"
+* "timeBodyAccelerometer-mean()-X"
+* "timeBodyAccelerometer-mean()-Y"
+* "timeBodyAccelerometer-mean()-Z"
 *"timeBodyAccelerometer-std()-X"
 *"timeBodyAccelerometer-std()-Y"
 *"timeBodyAccelerometer-std()-Z"
